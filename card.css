@@ -1,0 +1,7 @@
+.bloco1{
+    display: flex;
+    flex-direction: column;
+    background-color: #00ffff;
+    width: 20%;
+    height: 100vh;
+}
