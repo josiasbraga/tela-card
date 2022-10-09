@@ -1,12 +1,13 @@
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    padding: 15px 10px;
+}
 
 .line__icone{
     margin: 5px;
-    width: 30px;
-    height: 30px;
-}
-
-.line__icone--edit{
-    margin: auto;
     width: 30px;
     height: 30px;
 }
@@ -37,21 +38,8 @@
     text-align: center;
 }
 
-.line{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    column-gap: 5px;
-    padding: 15px 10px;
+.tracado{
+    color: grey;
 }
 
-.line__aling{
-    display: flex;
-    justify-content: space-around;
-    column-gap: 40px;
-}
 
-.line__aling--img{
-    width: 30px;
-    height: 30px;
-}
