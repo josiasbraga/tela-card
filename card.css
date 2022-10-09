@@ -1,7 +1,57 @@
-.bloco1{
+
+.line__icone{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.line__icone--edit{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+.line__text{
+    margin: 5px;
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+.line__text--pro{
+    text-align: center;
+    padding: 4px 4px;
+    border-radius: 20px;
+    margin: 10px 15px;
+    width: 30%;
+    background-color: orange;
+    color: white;
+}
+
+.line__not{
+    margin: auto;
+    background-color: grey;
+    border-radius: 20px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.line{
     display: flex;
-    flex-direction: column;
-    background-color: #00ffff;
-    width: 20%;
-    height: 100vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    padding: 15px 10px;
+}
+
+.line__aling{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 40px;
+}
+
+.line__aling--img{
+    width: 30px;
+    height: 30px;
 }
