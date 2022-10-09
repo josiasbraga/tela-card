@@ -12,13 +12,13 @@
     height: 30px;
 }
 
-.line__text{
+.line__name{
     margin: 5px;
     padding: 0 10px;
     font-size: 30px;
 }
 
-.line__text--pro{
+.line__name--pro{
     text-align: center;
     padding: 4px 4px;
     border-radius: 20px;

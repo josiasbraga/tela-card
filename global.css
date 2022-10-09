@@ -18,7 +18,7 @@
     height: 100vh;
 }
 
-.line__edit{
+.line2{
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
@@ -29,7 +29,7 @@
     width: 30px;
     height: 30px;
 }
-.line__text--edit{
+.line__name--edit{
     margin: 5px;
     padding: 10px 0;
     font-size: 15px;
